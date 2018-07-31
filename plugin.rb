@@ -1,6 +1,6 @@
 # name: discourse-migratepassword
 # about: enable alternative password hashes
-# version: 0.71
+# version: 0.71.1
 # authors: Jens Maier and Michael@discoursehosting.com
 # url: https://github.com/discoursehosting/discourse-migratepassword
 
@@ -20,7 +20,7 @@
 #This will be applied at runtime, as authentication is attempted.  It does not apply at migration time.
 
 
-gem 'bcrypt', '3.1.3'
+gem 'bcrypt', '3.1.12'
 gem 'unix-crypt', '1.3.0', :require_name => 'unix_crypt'
 
 enabled_site_setting :migratepassword_enabled
